@@ -1,0 +1,59 @@
+body{
+    background-color: pink;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+    margin: 0;
+    
+}
+
+header{
+    background-color: rgb(235, 44, 124);
+    width: all;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title img {
+    width: 30%;
+    height: auto;
+    margin-left: 30%;
+}
+
+ul{
+    margin-right: 10%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+ color: pink;
+ transition: 0.5 all;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#bnt-subscribe{
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+#bnt-subscribe:hover{
+ color: rgb(235, 44, 124);
+ background-color: pink;
+}
+
+main{
+    display: flex;
+    padding: 30px;
+}
