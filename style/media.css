@@ -1,0 +1,46 @@
+@media screen and (max-width: 760px){
+    
+    header{
+        flex-direction: column;
+    }
+
+    #title img{
+        margin-top: 15px;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 38px;
+        margin-top: 5px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    input{
+        align-self: center;
+        width: 100%;
+    }
+
+    #img-barbie{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
